@@ -35,6 +35,14 @@ body {
   margin-bottom: 1em;
 }
 
+.projects-header {
+  color: white;
+}
+
+/* .colorlib-work {
+  cursor: pointer;
+} */
+
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -948,6 +956,7 @@ body.offcanvas {
   height: 300px;
   width: 100%;
   display: block;
+  cursor: pointer;
   margin-bottom: 30px; }
   .project .desc {
     position: absolute;
@@ -957,6 +966,7 @@ body.offcanvas {
     right: 0;
     background: #2c98f0;
     opacity: 0;
+    cursor: pointer;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
@@ -964,6 +974,7 @@ body.offcanvas {
       padding: 20px;
       display: block;
       position: relative;
+      cursor: pointer;
       height: 300px; }
       .project .desc .con .icon {
         position: absolute;
@@ -1440,4 +1451,5 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
+  cursor: pointer;
   opacity: 0; }
