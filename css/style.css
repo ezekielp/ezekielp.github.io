@@ -31,6 +31,10 @@ body {
   height: 60px;
 }
 
+#contact-heading {
+  margin-bottom: 1em;
+}
+
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -245,7 +249,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 3em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -391,7 +395,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -415,7 +419,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
