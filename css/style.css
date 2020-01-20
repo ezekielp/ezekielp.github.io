@@ -66,9 +66,9 @@ body {
   height: 25px;
 }
 
-/* .colorlib-work {
-  cursor: pointer;
-} */
+.new-svg-icon-class {
+  margin-left: 25px;
+}
 
 a {
   color: #2c98f0;
@@ -697,6 +697,12 @@ body.offcanvas {
     border-bottom: 2px solid #A02E32; }
   .services.color-6 {
     border-bottom: 2px solid #60B149; }
+  .services.color-7 {
+    border-bottom: 2px solid #346891; }
+  .services.color-8 {
+    border-bottom: 2px solid #F34F29; }
+  .services.color-9 {
+    border-bottom: 2px solid #CB6799; }
 
 .services {
   margin-bottom: 80px;
