@@ -39,6 +39,34 @@ body {
   color: white;
 }
 
+.new-symbol-class {
+  color: #2c98f0;
+  font-size: 28px;
+}
+
+.new-symbol-class-container, .new-symbol-class-container a {
+  display: flex;
+}
+
+.email-class {
+  margin-top: 15px;
+}
+
+.new-symbol-text-class {
+  margin-left: 15px;  
+}
+
+.new-logo-class-container {
+  width: 30px;
+  text-align: center;
+}
+
+.new-logo-class {
+  width: auto;
+  height: 25px;
+}
+
+
 /* .colorlib-work {
   cursor: pointer;
 } */
