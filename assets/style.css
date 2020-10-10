@@ -1,0 +1,302 @@
+@font-face {
+  font-family: Rubik;
+  src: url('Rubik-VariableFont_wght.ttf');
+  font-size: 16px;
+}
+
+html, body, section, article,
+h1, h2, ul, li, strong, em, button,
+input, select {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  line-height: 150%;
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-name {
+    margin-left: -12rem;
+  }  
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-name {
+    margin-bottom: 2rem;
+    text-align: center;
+  }  
+}
+
+
+header {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.header-name {
+  font-size: 4rem;
+  font-variation-settings: 'wght' 600;
+}
+
+.subheader {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-variation-settings: 'wght' 550;
+}
+
+.cv-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+
+/* margin-bottom: 2rem; */
+
+.cv-btn {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 20px 30px;
+  width: 105px;
+  font-variation-settings: 'wght' 550;
+}
+
+.cv-btn:active {
+  background-color: black;
+  color: white;
+}
+
+/* SKILLS */
+
+@media screen and (min-width: 650px) {
+  .logo-container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    margin-right: 1rem;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 35px;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+.aws {
+  background-image: url('aws.svg');
+  width: 58px;
+}
+
+.docker {
+  background-image: url('docker.svg');
+  width: 35px;
+}
+
+.graphql {
+  background-image: url('graphql.svg');
+  width: 35px;
+}
+
+.javascript {
+  background-image: url('javascript.png');
+  width: 35px;
+}
+
+.rails {
+  background-image: url('rails.svg');
+  width: 93px;
+}
+
+.react {
+  background-image: url('react.svg');
+  width: 41px;
+}
+
+.redux {
+  background-image: url('redux.svg');
+  width: 37px;
+}
+
+.ruby {
+  background-image: url('ruby.svg');
+  width: 35px;
+}
+
+.typescript {
+  background-image: url('typescript.svg');
+  width: 35px;
+}
+
+.skills-description {
+  font-size: 0.75rem;
+}
+
+
+/* PROJECTS */
+
+.project-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-li {
+  height: 325px;
+  overflow: hidden;
+  margin-bottom: 38px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  opacity: 1;
+}
+
+.project-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  opacity: 0;
+  width: 95%;
+  height: 325px;
+  background-color: rgba(200, 200, 200, 0.9);
+  color: black;
+  font-size: 1.1rem;
+  font-variation-settings: 'wght' 500;
+  line-height: 175%;
+  transition: all 200ms ease-out;
+}
+
+.project-desc:hover {
+  opacity: 1;
+  transition-duration: .2s;
+}
+
+@media screen and (max-width: 500px) {
+  .project-desc {
+    width: 90%;
+    font-size: .75rem;
+  }
+
+  .project-li {
+    height: 200px;
+  }
+}
+
+/* CONTACT */
+
+.contact-section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+
+.contact-symbols-container .contact-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 220px;
+  align-items: center;
+  height: 250px;
+}
+
+.contact-logo {
+  width: 30px;
+  background-size: cover;
+}
+
+.at_symbol {
+  background-image: url('@_symbol.svg');
+  height: 31px;
+}
+
+.phone {
+  background-image: url('phone.svg');
+  height: 30px;
+}
+
+.angellist {
+  background-image: url('angellist.png');
+  height: 33px;
+  width: 23px;
+  margin-left: 3px;
+}
+
+.github {
+  background-image: url('github.png');
+  height: 30px;
+}
+
+.linkedin {
+  background-image: url('linkedin.png');
+  height: 30px;
+}
+
