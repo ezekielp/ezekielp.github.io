@@ -1,0 +1,15 @@
+{
+  "name": "portfolio_site_2020",
+  "version": "1.0.0",
+  "description": "Ezekiel Pfeifer's new portfolio site",
+  "main": "index.js",
+  "repository": "https://github.com/ezekielp/portfolio_site_2020",
+  "author": "Ezekiel Pfeifer",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "scripts": {
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'portfolio_site_2020'"
+  }
+}

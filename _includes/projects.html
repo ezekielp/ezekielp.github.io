@@ -1,0 +1,18 @@
+{% assign projects = site.projects %}
+
+<section>
+  <div class="subheader">Projects</div>
+  <ul>
+    {% for project in projects %}
+    <li class="project-li">
+      <div class="project-name">{{ project.title }}</div>
+      <a href="{{ project.href }}" target="_blank">
+        <div class="image-container">
+            <img class="project-image" src="{{ project.image_src | url }}" alt="Image for {{ project.description }}">
+            <div class="project-desc">{{ project.description }}</div>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

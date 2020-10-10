@@ -1,0 +1,16 @@
+{% assign metatitle = site.title %}
+
+{% assign metadescription = site.site_description %}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="icon" href="{{ '/assets/ez_favicon.png' | url }}">
+
+<title>{{- metatitle -}}</title>
+
+<meta name="description" content="{{- metadescription -}}" >
+<meta property="og:description" content="{{- metadescription -}}" >
+
+<link rel="stylesheet" href="{{ '/assets/style.css' | url }}">

@@ -1,0 +1,41 @@
+{
+  "title": "Ezekiel Pfeifer",
+  "email": "ezekielp@gmail.com",
+  "phone": "+1 (484) 347-9286",
+  "social_media": {
+    "linked_in": "https://www.linkedin.com/in/ezekielpfeifer/",
+    "angel_list": "https://angel.co/u/ezekiel-pfeifer",
+    "github": "https://github.com/ezekielp/"
+  },
+  "site_description": "A portfolio site showing the work of software engineer Zeke Pfeifer",
+  "projects": [
+    {
+      "title": "Fambly",
+      "description": "A web app that acts as a personal relationship manager, allowing users to store and organize information about friends, family and social contacts",
+      "href": "https://www.fambly.io",
+      "image_src": "/assets/fambly.png",
+      "order": 0
+    },
+    {
+      "title": "The Tree Company",
+      "description": "A custom-built e-commerce website for construction sign seller The Tree Company using Ruby on Rails, TypeScript, React, and GraphQL",
+      "href": "https://tree-company.herokuapp.com/",
+      "image_src": "/assets/tree_company.png",
+      "order": 1
+    },
+    {
+      "title": "Brain Food",
+      "description": "A scroller created with vanilla JavaScript and D3.js that shows information about some highly nutritious foods",
+      "href": "https://ezekielp.com/nutrition_facts_scroller/",
+      "image_src": "/assets/nutrition_facts_scroller.png",
+      "order": 2
+    },
+    {
+      "title": "TreeBnB",
+      "description": "Clone of rental bookings site Airbnb with a treehouse theme. The site uses Ruby on Rails and PostgreSQL for its back-end together with React-Redux on the front-end, and utilizes the Google Maps API and the React Dates calendar picker library",
+      "href": "https://mytreebnb.herokuapp.com/",
+      "image_src": "/assets/treebnb-home-page.png",
+      "order": 3
+    }
+  ]
+}

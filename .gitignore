@@ -1,1 +1,5 @@
-.DS_store
+node_modules
+_site/
+
+# Ignore MacOSX folder cache
+/**/.DS_Store
