@@ -1,16 +1,12 @@
 {% assign email = site.email %}
-{% assign phone = site.phone %}
 {% assign github_url = site.social_media.github %}
 {% assign linkedin_url = site.social_media.linked_in %}
-{% assign angellist_url = site.social_media.angel_list %}
 
 <section>
   <div class="subheader">Contact</div>
   <div class="contact-grid">
     <div class="contact-logo at_symbol"></div>
     <div class="email-text">{{ email }}</div>
-    <div class="contact-logo phone"></div>
-    <div class="phone-text">{{ phone }}</div>
     <a href="{{ github_url }}">    
       <div class="contact-logo github">
       </div>
@@ -29,8 +25,5 @@
       <div class="contact-logo angellist">
       </div>
     </a>
-    <div class="angellist-text">
-      <a href="{{ angellist_url }}">AngelList</a>
-    </div>
   </div>
 </section>
